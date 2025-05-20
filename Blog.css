@@ -1,0 +1,143 @@
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#2B1E55, #7C42EB);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 40px;
+}
+
+.navigation {
+    background: transparent;
+    padding: 20px 0;
+    font-family: 'League Spartan', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.info {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 20px; 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    text-align: center; 
+    position: relative;
+}
+
+
+.pic-placeholder {
+    width: 10%;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 30px;
+    flex-shrink: 0;
+}
+
+.texts {
+    max-width: 900px;
+}
+
+.texts h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.texts p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.read-more {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.read-more:hover {
+    color: #aaaaff;
+}
+
+.pic-placeholder {
+    width: 10%;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 30px;
+    flex-shrink: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Ensures loader stays inside */
+}
+
+.loader {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: linear-gradient(0deg, #402771 45%, #d482fe 100%);
+    animation: spin 1s linear infinite;
+}
+
+.inner-circle {
+    width: 80%;
+    height: 80%;
+    background-color:rgb(152, 120, 185);
+    border-radius: 50%;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+footer {
+    padding: 5px;
+    color: white;
+    margin-top: 50px ;
+    text-align: center;
+}
+
+footer img {
+  align-items: center;
+}

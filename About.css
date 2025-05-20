@@ -1,0 +1,127 @@
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#2B1E55, #7C42EB);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 40px;
+}
+
+
+.navigation{
+    background: transparent;
+    padding: 10px 0;
+    font-family: 'League Spartan', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    padding-bottom: 40px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+
+.info {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+.pic-placeholder {
+    width: 160px;
+    height: 320px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 30px;
+    flex-shrink: 0;
+}
+
+
+.texts {
+    max-width: 600px;
+}
+
+.texts h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.texts p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; 
+  width: 100%;  
+}
+
+
+.loader {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+ background: linear-gradient(0deg, #402771 45%, #d482fe 100%);
+  animation: spin 1s linear infinite;
+}
+
+
+.inner-circle {
+  width: 80%;
+  height: 80%;
+  background-color:rgb(152, 120, 185);
+  border-radius: 50%;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+footer {
+    padding: 5px;
+    color: white;
+    margin-top: 50px ;
+    text-align: center;
+}
+
+footer img {
+  align-items: center;
+}

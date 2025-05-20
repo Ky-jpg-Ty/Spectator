@@ -1,0 +1,282 @@
+html {
+    height: 100%;
+}
+
+.header {
+    position: relative;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background:#2B1E55;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.logo {
+    width: 150px; 
+    height: 50px;
+}
+
+.line {
+    border-top: 2px solid #7B61C6;
+    margin-top: 5px;
+    width: 1630px;
+    margin-left: -120px;
+}
+
+.line-2{
+    border-top: 2px solid #7B61C6;
+    margin-top: 23px;
+    width: 1500px;
+    margin-left: -150px;
+}
+
+.Side-Menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100vh;
+    background-color: #7B61C6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+    z-index: 1000;
+}
+
+
+.Side-Menu h3{
+    font-family: 'Manjari';
+    color: white;
+}
+
+.btn {
+    color: rgb(255, 255, 255);
+    border: transparent;
+    background-color: transparent;
+    font-size: 20px;
+    margin-bottom: 20px;
+    cursor: progress;
+}
+
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.My-story {
+    position: absolute;
+    top: 170px;
+    left: 150px;
+}
+
+
+
+.Share {
+    width: 120px;
+    height: 180px;
+    border-radius: 20px;
+    display: flex;
+    background-color: #7C42EB;
+    justify-content: center;
+    align-items: center;
+    margin-top: -70px;
+    margin-left: -120px;
+}
+
+.Story {
+    width: 120px;
+    height: 180px;
+    border-radius: 20px;
+    display: flex;
+    background-color: #7B61C6;
+    justify-content: center;
+    align-items: center;
+    margin-top: -180px;
+    margin-left: 25px;
+}
+
+.Story2 {
+    width: 120px;
+    height: 180px;
+    border-radius: 20px;
+    display: flex;
+    background-color: #7B61C6;
+    justify-content: center;
+    align-items: center;
+    margin-top: -180px;
+    margin-left: 155px;
+}
+
+.Story3 {
+    width: 120px;
+    height: 180px;
+    border-radius: 20px;
+    display: flex;
+    background-color: #7B61C6;
+    justify-content: center;
+    align-items: center;
+    margin-top: -180px;
+    margin-left: 284px;
+}
+
+.Story4 {
+    width: 120px;
+    height: 180px;
+    border-radius: 20px;
+    display: flex;
+    background-color: #7B61C6;
+    justify-content: center;
+    align-items: center;
+    margin-top: -180px;
+    margin-left: 414px;
+}
+
+.plus {
+    width: 40px;
+    height: 40px;
+    background-color: #B5B6EE;
+    color: #2B1E55;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.plus:hover {
+    cursor: not-allowed;
+}
+
+.post {
+    margin-top: 275px;
+    height: 490px;
+    width: 1200px;
+    background-color: #49397C;
+    margin-left: 45px;
+    flex-direction: column;
+    padding: 10px;
+    flex-direction: row;
+    border-radius: 30px;
+}
+
+.post2 {
+    margin-top: 10px;
+    height: 660px;
+    width: 1200px;
+    background-color: #49397C;
+    margin-left: 45px;
+    flex-direction: column;
+    padding: 10px;
+    flex-direction: row;
+    border-radius: 30px;
+}
+
+.post3 {
+    margin-top: 10px;
+    height: 900px;
+    width: 1200px;
+    background-color: #49397C;
+    margin-left: 45px;
+    flex-direction: column;
+    padding: 10px;
+    flex-direction: row;
+    border-radius: 30px;
+}
+
+.content img{
+    margin-top: 2px;
+    height: fit-content;
+    width: 580px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.content p{
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+.video{
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.profile {
+    height: 400px;
+    width: 400px;
+    margin-left: 90px;
+    color: white;
+    padding-top: 30px;
+    flex-direction: row;
+
+}
+
+h2 {
+    
+    font-family:'League Spartan', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;;;
+}
+
+h4 {
+    color:#7C7C7C;
+    font-family: 'Manjari';
+    margin-left: 65px;
+    margin-top: -8px;
+}
+.content {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.user {
+    float: inline-start;
+    margin-right: 20px;
+    border-radius: 60px;
+}
+
+p {
+    font-size: 40px;
+    font-family: 'Manjari';
+}
+
+.interactables{
+    display: inline-block;
+}
+
+.like-button {
+    background: transparent;
+    border: none;
+    font-size: 40px;
+    margin-top: 15px;
+    cursor: not-allowed;
+}
+
+.comments {
+    background: transparent;
+    border: none;
+    font-size: 40px;
+    margin-left: 100px;
+    cursor: not-allowed;
+}
+
+.Share-button {
+    background: transparent;
+    border: none;
+    font-size: 42px;
+    margin-left: 100px;
+    cursor: not-allowed;
+    color: white;
+}
+
